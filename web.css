@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    }
+  li{
+    display: inline;
+  }
+  body {
+    background-color: rgb(142, 181, 194);
+  }
+  
+  h1 {
+    color: rgb(255, 0, 0);
+   text-align: center;
+  font-size: 40px;
+  }
+.heading {
+    color: rgb(214, 0, 0);
+    text-align: center;
+font-size: 40px;
+}
+.button{
+    color: rgb(214, 0, 0);
+    background-color: rgb(232, 239, 9);
+    border-radius: 20px;
+}
+
+.flex{
+display: flex;
+}
+.left{
+    flex: 50%;
+    margin: 25px;
+}
+.right {
+    flex: 50%;
+
+}
+.button{
+    margin: 30px;
+    padding: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: yellow;
+}
+.heading {
+    color: rgb(214, 0, 0);
+    text-align: center;
+font-size: 40px;
+}
+h1 {
+    color: rgb(255, 0, 0);
+   text-align: center;
+  font-size: 40px;
+}
+
+.heading {
+
+    color: rgb(214, 0, 0);
+    text-align: center;
+font-size: 40px;
+}
+
+.float{
+    display: float;
+
+    }
+    .left{
+        flex: 50%;
+        margin: 25px;
+    }  
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer p {
+    /* color: blue;// */
+}
+
+
+
+
+
+.img{
+    border-radius: 200px;
+}
+
+table, th , td{
+    border:  1px  solid black;
+}
+
+
+p{
+    opacity: 1;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    /* grid-template-columns: (3,1fr); */
+    border: 1px solid black;
+}
+
+input{
+height: 30px;
+ border-radius: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

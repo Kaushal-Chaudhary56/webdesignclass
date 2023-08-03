@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .navbar{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+} */
+
+/* 
+ul {
+    list-style-type: none;
+    float: right;
+
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+a:hover{
+    color: white;
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    /* background-color: #111; */
+    color: white;
+    background-color: rgb(90, 74, 74);
+
+}
+
+.home{
+    background-image: url(./img/bg1.png);
+    height: auto;
+    width: 100%;
+
+}
+.heading{
+    text-align: center;
+    color: white;
+    /* margin: 10px; */
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+  flex: 40%;
+  color: white;
+}
+.right {
+  flex: 40%;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.readbutton{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.readbutton:hover{
+    color: black;
+    background-color: white;
+}
+.service{
+    background-image: url(./img/bg1.png);
+    height: 500px;
+    margin-top: 0px;
+    width: auto;
+}
+.grid-container{
+display: grid;
+grid: 150px / auto auto auto;
+grid-gap: 10px;
+padding: 10px;
+}
+
+.service-div{
+     /* width: 30%;  */
+    border: 1px solid black;
+}
+.service-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/* width: 50%; */
+}
+.service-heading{
+    text-align: center;
+    color: green;
+
+}
+
+.about{
+    height:400px;
+    width: 400px;
+    background-color: aliceblue;
+}
+
+
+.contact{
+    height: auto;
+    width: 100%;
+    background-color: green;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
