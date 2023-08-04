@@ -22,5 +22,13 @@
 // var b= (' Welcome here ')
 // alert ( a + b )
 
-var a ="kushal chaudhary "
-prompt (a)
+// var a ="kushal chaudhary "
+// prompt (a)
+
+var a= "kushal "
+let b= "chaudhary"
+const c= "anish pokharel "
+console.log(a)
+alert(b)
+prompt(c)
+console.log("hello")
